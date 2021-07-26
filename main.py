@@ -12,7 +12,7 @@ from process_event.send_email import SendEmail
 path = "configuration.json"
 
 
-def lambda_handler(event, context):
+def lambda_handler(event):
     """
     This is the entry point for lambda.
     :param event: The SNS event
