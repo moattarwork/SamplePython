@@ -21,6 +21,8 @@ def lambda_handler(event, context):
     """
     # Setting up constants for the lambda call
     process_id = str(uuid.uuid4())
+    
+    
 
     h = Helpers()
     logger = h.set_logger(get_logging_lvl())
