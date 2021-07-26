@@ -1,0 +1,20 @@
+{
+  "drop/virtus": {
+    "toProcess": "to-process/virtus-aum",
+    "partition": {
+      "src": {
+        "name": "as_of_date",
+        "type": "date",
+        "format": "%d/%m/%Y"
+      },
+      "target": {
+        "name": "asofdate",
+        "type": "string",
+        "format": "%Y-%m-%d"
+      }
+    },
+    "type": "csv",
+    "emailTo": "d.bielak@bitvva.co.uk",
+    "emailFrom": "noreplay.aum@bitvva.co.uk"
+  }
+}

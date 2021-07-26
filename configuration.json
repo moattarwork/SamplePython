@@ -1,0 +1,15 @@
+{
+  "version": "v0.0.2dev",
+  "notification": {
+    "subject_path": ["body","subject"],
+    "uri_path": ["uri"],
+    "process_path": ["body","msg","process"],
+    "provider_path": ["body","msg","dataProvider"],
+    "email_to": ["emailTo"],
+    "email_from": ["emailFrom"],
+    "raw_correlation_id": ["x-raw-correlation-id"],
+    "charset": "utf-8",
+    "html": ["body", "html"],
+    "text": ["body", "text"]
+  }
+}

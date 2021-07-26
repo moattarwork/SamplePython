@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+six = "==1.12.0"
+python-dateutil = "==2.8.0"
+boto3 = "==1.9.154"
+
+[requires]
+python_version = "2.7"
